@@ -1,0 +1,133 @@
+/* Reset */
+
+html, body, ul, ol, li, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p, img {
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+
+li {
+	list-style: none;
+}
+
+sup {
+	vertical-align: text-top;
+}
+
+sub {
+	vertical-align: text-bottom;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+input, textarea, select {
+	font-size: 110%;
+	line-height: 1.1;
+}
+
+abbr, acronym {
+	border-bottom: .1em dotted;
+	cursor: help;
+}
+
+/* */
+
+/* Main Elements*/
+
+body {
+	border-top:12px solid #3d3935;
+	background:#ffa200 url(../images/bg_justinwinslow_01.jpg) right bottom no-repeat;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:85%;
+	color:#3d3935;
+	line-height:1.5em;
+}
+
+h1 {
+	font-weight:normal;
+	font-size:2.25em;
+	margin:0 0 1.5em;
+}
+
+h2 {
+	font-weight:normal;
+	font-size:2em;
+	margin:0 0 1em;
+}
+
+h3 {
+	font-weight:normal;
+	font-size:1.25em;
+	margin:0 0 1em;
+}
+
+p {
+	margin:0 0 1em;
+}
+
+p + h2 {
+	margin-top:1em;
+}
+
+a, a.active, a.visited, a.hover {
+	color:#336699;
+}
+
+ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+ul li {
+	margin:0 0 .25em;
+}
+
+/* */
+
+.structure_header {
+	padding:96px 0 0 96px;
+	border-top:1px solid #ffb940;
+}
+
+.structure_header h1 {
+	width:692px;
+	height:125px;
+	padding:0;
+	text-indent:-9999px;
+	background:url(../images/text_theRealJustinWinslow.png) 0 0 no-repeat;
+}
+
+.structure_body {
+	padding: 0 0 0 96px;
+	text-shadow:0 1px #ffb940;
+}
+
+.structure_body h2 a {
+	text-decoration:none;
+	color:#3d3935;
+}
+
+.structure_body h2 a:hover {
+	color:#fff;
+	text-shadow:none;
+}
+
+@media only screen and (max-device-width: 640px), only screen and (max-width: 640px){
+	.structure_header {
+		padding:12px 0 0 12px;
+	}
+
+	.structure_body {
+		padding: 0 0 0 12px;
+	}
+}
