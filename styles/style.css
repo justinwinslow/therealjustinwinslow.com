@@ -43,7 +43,18 @@ abbr, acronym {
 
 /* Main Elements*/
 
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;  /* Firefox, other Gecko */
+  box-sizing: border-box;     /* Opera/IE 8+ */
+}
+
+html {
+	height: 100%;
+}
+
 body {
+	height: 100%;
 	border-top:12px solid #3d3935;
 	background:#ffa200 url(../images/bg_justinwinslow_01.jpg) right bottom no-repeat;
 	font-family:Georgia, "Times New Roman", Times, serif;
