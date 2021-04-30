@@ -1,5 +1,9 @@
 /* Reset */
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 html, body, ul, ol, li, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p, img {
   margin: 0;
   padding: 0;
@@ -109,6 +113,7 @@ ul li {
 .structure_header {
   padding:96px 0 0 96px;
   border-top:1px solid #ffb940;
+  max-width: 100%;
 }
 
 .structure_header h1 {
@@ -117,6 +122,8 @@ ul li {
   padding:0;
   text-indent:-9999px;
   background:url(../images/text_theRealJustinWinslow.png) 0 0 no-repeat;
+  background-size: contain;
+  max-width: 100%;
 }
 
 .structure_body {
